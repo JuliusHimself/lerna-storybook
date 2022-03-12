@@ -1,5 +1,11 @@
-# Storybook design system tutorial
+# Storybook design system
 
-The Storybook design system tutorial is a subset of the full [Storybook design system](https://github.com/storybookjs/design-system/), created as a learning resource for those interested in learning how to write and publish a design system using best in practice techniques.
+https://github.com/lerna/lerna
 
-Learn more in [Storybook tutorials](https://storybook.js.org/tutorials/).
+- `npm run install`
+- `npm run storybook`
+
+- `lerna publish` to publish changed packages
+- `lerna changed` to list changed packages
+- `lerna diff`, `lerna diff package-name` Diff all packages or a single package since the last release
+- 
