@@ -1,15 +1,15 @@
 import React from "react";
 import PropTypes from "prop-types";
 import styled, { css } from "styled-components";
-import { color, typography } from "./shared/styles";
-import { glow } from "./shared/animation";
-import { Icon } from "./Icon";
+import { color, typography } from "../../shared/styles";
+import { glow } from "../../shared/animation";
+import { Icon } from "../Icon/Icon";
 
 export const sizes = {
   large: 40,
   medium: 28,
   small: 20,
-  tiny: 16,
+  tiny: 14,
 };
 
 const Image = styled.div`

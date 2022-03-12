@@ -4,8 +4,8 @@ import styled from "styled-components";
 import { userEvent, within } from "@storybook/testing-library";
 
 import { Button } from "./Button";
-import { Icon } from "./Icon";
-import { StoryLinkWrapper } from "./StoryLinkWrapper";
+import { Icon } from "../Icon/Icon";
+import { StoryLinkWrapper } from "../../StoryLinkWrapper";
 
 const CustomButton = styled.button`
   border: 1px solid green;

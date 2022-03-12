@@ -1,0 +1,16 @@
+0 silly argv { _: [ 'diff' ], lernaVersion: '4.0.0', '$0': '/usr/local/bin/lerna' }
+1 notice cli v4.0.0
+2 verbose rootPath /Users/juliuswulf/dev/spikes/learnstorybook-design-system
+3 info versioning independent
+4 silly hasCommit
+5 verbose hasCommit true
+6 verbose hasTags true
+7 silly getLastTagInBranch
+8 error Error: Command failed with exit code 128: git describe --tags --abbrev=0
+8 error fatal: No tags can describe 'bba7cb022efc5267f0e6c3bd8cd993551e3d0702'.
+8 error Try --always, or create some tags.
+8 error     at makeError (/usr/local/lib/node_modules/lerna/node_modules/execa/lib/error.js:59:11)
+8 error     at Function.module.exports.sync (/usr/local/lib/node_modules/lerna/node_modules/execa/index.js:186:17)
+8 error     at Object.execSync (/usr/local/lib/node_modules/lerna/node_modules/@lerna/child-process/index.js:39:16)
+8 error     at getLastCommit (/usr/local/lib/node_modules/lerna/node_modules/@lerna/diff/lib/get-last-commit.js:15:25)
+8 error     at DiffCommand.initialize (/usr/local/lib/node_modules/lerna/node_modules/@lerna/diff/index.js:33:27)
